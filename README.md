@@ -3,4 +3,7 @@ Type in an input with brackets, and this will check it to see if your program is
 
 
 # Context Free Grammar
-This is an
+This program demonstrates a Pushdown Automata (PDA) which is equivalent to the following CFG
+
+    S → TT
+    T → (T) | {T} | <T> | [T] | ε
