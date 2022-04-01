@@ -7,3 +7,5 @@ This program demonstrates a Pushdown Automata (PDA) which is equivalent to the f
 
     S → TT
     T → (T) | {T} | <T> | [T] | ε
+
+This program accepts other characters as well, but will only regard (,),<,>,\[,\],{, and } to determine whether or not it is balanced/acceptable.
