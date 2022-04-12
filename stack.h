@@ -1,3 +1,14 @@
+// stack.h
+// AUTHOR: Pranav Shridhar
+// Description:
+/*  
+	The contents of stack.h consist of the implementation of the stack abstract data type (ADT) in C.
+	Elements, specifically characters for the Balanced Brackets project, can be pushed onto and popped from the stack.
+	Memory relating to instances of this implementation of the stack are allocated to the heap with the 
+	stack_init() function, and must be freed with the stack_dealloc() function.
+	
+*/
+
 #include <stdlib.h>
 #include <stdbool.h>
 
